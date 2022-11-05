@@ -1,0 +1,144 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  background-size: cover;
+  height: 100vh;
+  padding: 50px;
+  font-family: Roboto;
+}
+.title {
+  font-family: Roboto;
+  margin: 0px;
+  text-align: center;
+  margin: 10px;
+}
+.contents {
+  display: flex;
+}
+
+.left-content {
+  width: 50%;
+
+  height: 600px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-content {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 180px;
+  width: 180px;
+  box-shadow: 0px 4px 16px 0px;
+  background-color: white;
+  border-radius: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.time {
+  color: #00d9f5;
+  margin: 0px;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+}
+.btn {
+  border-width: 0px;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Roboto;
+  padding: 10px;
+  display: flex;
+  cursor: pointer;
+}
+.btn-des {
+  font-size: 30px;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.des {
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 0px;
+}
+.count-card {
+  height: 50px;
+  background-image: linear-gradient(to right, #cffcf1, #defafe, #00d9f5);
+  width: 100px;
+  color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-hover {
+  width: 100px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 10px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-1 {
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #40e495,
+    #30dd8a,
+    #2bb673
+  );
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.incredecre {
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn-description {
+  font-size: 30px;
+  font-weight: bold;
+}
